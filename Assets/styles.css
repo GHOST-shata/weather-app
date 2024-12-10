@@ -1,0 +1,130 @@
+body {
+  background-image: url("./images.jpg");
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-text {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #ffffff;
+
+}
+
+.nav-bar {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(31, 29, 28, 0.492);
+  border-bottom: solid;
+  border-bottom-color: #856404;
+  border-bottom-width: 5px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #7b141e;
+}
+
+#currentDay {
+  padding: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f7faf7;
+  text-align: center;
+  margin: 0em;
+}
+
+.footer {
+  background-color: rgb(31, 29, 28, 0.492);
+  height: 7%;
+  border-top: solid;
+  border-top-color: #856404;
+  border-top-width: 5px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  padding: 12px;
+}
+
+.col-12 .box {
+  background: rgba(245, 245, 245, 0.274);
+  border-radius: 12px;
+  width: 760px;
+  margin-top: -2px;
+  margin-left: -10px;
+}
+
+.temperatureFont {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.bg-primary {
+  border-radius: 10px;
+}
+
+.bg-light {
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+
+.imgsize {
+  width: 100px;
+  float: right;
+  margin-right: 50%;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-left: -40px;
+}
+
+@media only screen and (max-width:992px) {
+  .navbar .header-text {
+    padding-bottom: 0;
+    border-bottom: solid;
+    width: 100%;
+    text-align: center;
+    height: 10%;
+  }
+
+  .footer {
+    height: 7%;
+    border-top: solid;
+    border-top-width: 5px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .col-12 .box {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .navbar .footer .col-4 .row .nav {
+    width: 100%;
+    height: auto;
+  }
+
+  .header-text {
+    font-size: 16px;
+  }
+}
+
+#days {
+  margin-left: -25px;
+}
